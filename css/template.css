@@ -1,0 +1,49 @@
+/* DISEÑO DE TEMPLATE */
+
+#divGeneral{
+    width: 980px;
+    margin: auto;
+    text-align: left;
+}
+
+#cabecera{
+    background: aqua;
+    padding: 5px 15px;
+    color: aliceblue;
+}
+
+#menu{
+    background: orangered;
+    padding: 5px 15px;
+
+}
+
+#menu li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px sans-serif;
+}
+
+#SeccionPrincipal{
+    float: center;
+    width: 650px;
+    margin: 20px;
+}
+
+#sidebar{
+    float: left;
+    width: 220px;
+    margin: 20px;
+    padding: 20px;
+    background: orange;
+}
+
+#footer{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid silver;
+}
+
+/*  */

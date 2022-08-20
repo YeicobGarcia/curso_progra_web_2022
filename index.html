@@ -6,16 +6,19 @@
         <meta name = "Ejemplo" content = "Documento de ejemplo">
         <meta name = "keywords" content="HTML5, CSS3, Javascript">
         <tittle>Primera Pagina Web</tittle>
-        <link rel="sylesheet" href="miestilo.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="css/init.css">
     </head>
 
     <body>
 
-        <header>
+        <div id="divGeneral"></div>
+        <header class="cabecera">
             <h1>Este es el header de la pagina</h1>
         </header>
 
-        <nav>
+        <nav id="menu">
             <ul>
                 <li>Principal</li>
                 <li>Fotos</li>
@@ -25,11 +28,11 @@
             </ul>
         </nav>
 
-        <selection>
-            <article>
+        <selection id="SeccionPrincipal">
+            <article class="articulo">
                 <header>
                     <hgroup>
-                        <h1>Titulo del articulo 1</h1>
+                        <h1 class="tituloHeaderArticulo">Titulo del articulo 1</h1>
                         <h2>Subtitulado del articulo 1</h2>
                     </hgroup>
                     <time datetime="2022.08-13" pubdate>Publicado el 12-08-2022</time>
@@ -46,7 +49,8 @@
                     <p>Comentarios (0)</p>
                 </footer>
             </article>
-            <article>
+
+            <article class="articulo">
                 <header>
                     <h1>Titulo del Articulo 3</h1>
                 </header>
@@ -60,14 +64,14 @@
             </article>
         </selection>
 
-        <aside>
+        <aside class="sidebar">
             <blockquote> Mensaje numero uno</blockquote>
             <blockquete> Mensaje numero dos</blockquete>
             <blockquete> Mensaje numero tres</blockquete>
             <blockquete> Mensaje numero cuatro</blockquete>
         </aside>
 
-        <footer>
+        <footer class="footer">
             <small>Todo los derechos resercados para el curso de Programacion Web 1 UVG Campus Sur 2022</small>
             <address>
                 <a href="www.uvg.edu.gt"></a>
