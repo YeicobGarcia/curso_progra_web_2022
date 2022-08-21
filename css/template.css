@@ -7,9 +7,9 @@
 }
 
 #cabecera{
-    background: aqua;
+    background: grey;
     padding: 5px 15px;
-    color: aliceblue;
+    color: aqua;
 }
 
 #menu{
@@ -32,7 +32,6 @@
 }
 
 #sidebar{
-    float: left;
     width: 220px;
     margin: 20px;
     padding: 20px;
@@ -46,4 +45,3 @@
     border-top: 2px solid silver;
 }
 
-/*  */
