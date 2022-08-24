@@ -22,6 +22,7 @@
     display: inline-block;
     list-style: none;
     padding: 5px;
+    color: black;
     font: bold 14px sans-serif;
 }
 
@@ -32,8 +33,12 @@
 }
 
 #sidebar{
+    float: right;
+    display: flex;
+    flex-direction: flex-start;
+    
     width: 220px;
-    margin: 20px;
+    margin: 20px 0px;
     padding: 20px;
     background: orange;
 }
