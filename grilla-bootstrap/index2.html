@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+  <!-- Head -->
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -8,42 +9,118 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <title>PrograWeb_1</title>
   </head>
+  <!-- /Head -->
+
+  <!-- body -->
   <body data-spy="scroll" data-target="#navbar" data-offset="57">
     <!-- Header -->
     <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="assets/images/uvg.logo.png" alt="Platzi logo">
-          Programación Web
-        </a>
+          <img src="assets/images/uvg.logo.png" alt="UVG logo">
+          <a class="navbar-brand" href="#">
+            <div class=" row pb-0 pt-0">  
+              <div class="col-1 col-lg">
+                Programación<br>
+                Web 2022
+              </div>>
+            </div>
+          </a> 
+          </a>
+  
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbar">
-          <ul class="navbar-nav ml-auto">
+          <ul class="nav nav-tabs ml-auto navbar-dark bg-dark sticky-top>
             <li class="nav-item">
-              <a class="nav-link" href="#main">Inicio</a>
+              <a class="nav-link active" href="#main">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#speakers">Noticias</a>
+              <a class="nav-link active" href="#speakers">Tecnología</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#place-time">Fotos y Videos</a>
+              <a class="nav-link active" href="#ciencia">Ciencia</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#conviertete-en-orador">Documentacion</a>
+              <a class="nav-link active" href="#conviertete-en-orador">Educación</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-platzi" href="#" data-toggle="modal" data-target="#modalCompra">Comprar tickets</a>
+              <a class="nav-link active" href="#deportes">Deportes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#musica">Música</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#videjuegos">Videojuegos</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- /Header -->
+
+    <!-- SiderBar -->
+    <nav class="navbar navbar-default no-margin">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header fixed-brand">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" id="menu-toggle">
+            <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+        </button>
+         <a class="navbar-brand" href="#"><i class="fa fa-rocket fa-4"></i> M-33</a>
+      </div>
+      <!-- navbar-header-->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+         <ul class="nav navbar-nav">
+            <li class="active">
+               <button class="navbar-toggle collapse in" data-toggle="collapse" id="menu-toggle-2"> <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+               </button>
+            </li>
+         </ul>
+      </div>
+      <!-- bs-example-navbar-collapse-1 -->
+   </nav>
+   <div id="wrapper">
+      <!-- Sidebar -->
+      <div id="sidebar-wrapper">
+         <ul class="sidebar-nav nav-pills nav-stacked" id="menu">
+            <li class="active">
+               <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-dashboard fa-stack-1x "></i></span> Dashboard</a>
+               <ul class="nav-pills nav-stacked" style="list-style-type:none;">
+                  <li><a href="#">link1</a></li>
+                  <li><a href="#">link2</a></li>
+               </ul>
+            </li>
+            <li>
+               <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-flag fa-stack-1x "></i></span>Shortcut</a>
+               <ul class="nav-pills nav-stacked" style="list-style-type:none;">
+                  <li><a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-flag fa-stack-1x "></i></span>link1</a></li>
+                  <li><a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-flag fa-stack-1x "></i></span>link2</a></li>
+               </ul>
+            </li>
+            <li>
+               <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-cloud-download fa-stack-1x "></i></span>Overview</a>
+            </li>
+            <li>
+               <a href="#"> <span class="fa-stack fa-lg pull-left"><i class="fa fa-cart-plus fa-stack-1x "></i></span>Events</a>
+            </li>
+            <li>
+               <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-youtube-play fa-stack-1x "></i></span>About</a>
+            </li>
+            <li>
+               <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-wrench fa-stack-1x "></i></span>Services</a>
+            </li>
+            <li>
+               <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-server fa-stack-1x "></i></span>Contact</a>
+            </li>
+         </ul>
+      </div>
+      <!-- /#sidebar-wrapper -->
+    <!-- /SiderBar -->
 
     <!-- Main -->
     <main id="main">
@@ -287,4 +364,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="index.js"></script>
   </body>
+  <!-- /body-->
 </html>
