@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://c.webfontfree.com/c.js?f=BankGothic-Regular" type="text/javascript"></script>
+    
+    <title>PrograWeb2022_YeicobGarcia</title>
+  </head>
+  <body data-spy="scroll" data-target="#navbar" data-offset="57">
+    <!-- Header -->
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand pr-0" href="#">
+          <img src="assets/images/uvg.logo.png" alt="UVG logo">
+          <a class="navbar-brand" href="#">
+            <div class=" row pb-0 pt-0">  
+              <div class="col-1 col-lg">
+                Programación<br>
+                Web 2022
+              </div>
+            </div>
+          </a> 
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index2.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ContenidoPrincipal">Contenido</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#eventos">Videos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#place-time">Noticias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- /Header -->
+
+    <!-- Main -->
+    <main id="main">
+      <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://www.segurilatam.com/wp-content/uploads/sites/5/2021/07/ciberseguridad-global-1200x630.jpg" alt="tecno 3">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://www.escudodigital.com/uploads/s1/26/43/30/edge-y-mallas-ciberseguridad.jpeg" alt="tecno 2">
+          </div>
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="data:image/jpeg;base64,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" alt="tecno 1">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://siagconsulting.es/wp-content/uploads/tendencias-ciberseguridad-2022.png" alt="tecno 4">
+          </div>
+          <div class="overlay">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-md-12 md-6 text-center text-md-center">
+                  <h1 class="">La malla de ciberseguridad y la gestión de servicios sin contacto dominarán las TI en 2022</h1>
+                  
+                  <p class="d-none d-md-block">
+                    Este término viene de “Cybersecurity mesh” dado por la empresa Gartner como lo mencionamos 
+                    anteriormente, que buscó darle un enfoque arquitectónico distribuido de manera obtener un 
+                    control de la ciberseguridad que se escalable, flexible y sobre todo confiable.</p>
+
+                  <details>
+                    <summary><strong>Ver más...</strong></summary>
+                    <p class="d-none d-md-block">
+                      Definir un perímetro de seguridad alrededor de los datos, es importantísimo, 
+                      sin importar que se guarden en aplicaciones IoT o bien en la nube.
+                       Este enfoque moderno busca implementar los controles donde más se los necesite. 
+                        Lo que permitiría tener una malla completa con herramientas proporcionando servicios
+                         de seguridad fundamentales 
+                    </p>
+                </details>
+                  
+                  
+                  
+                  <a href="#ContenidoPrincipal" class="btn btn-outline-light" >Empieza a explorar</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- /Main -->
+    
+    <!--iside-->
+    <div class= "page-section" id="ContenidoPrincipal"  style="width:85% align-center;  padding: 40px;">
+      <div class="section-block">
+        <h4 class="m-0 font-weight-bold alert  border border-light w-100 text-center" style="color:#06991a; background:#F0FFFF">
+          <b> CONTENIDO </b>
+        </h4>
+        <br>
+        <div class="rounded border border-info" style="background: #F5F5F5 ; color: black;padding: 20px;">
+
+          <div class="row g-5" >
+
+            <div class="col-md-5 col-lg-4 "id="Headeraside">
+              <form>
+                <br>
+
+                <ul class="list-group mb-3" >
+                  <li class="list-group-item d-flex justify-content-between lh-sm bg-dark" id="titleaside">
+                    <div>
+                      <h5 class="my-0 color-white">MALLA DE CIBERGURIDAD</h5>
+                    </div>
+                    <!-- <span class="text-muted">FRONTAL</span> -->
+                  </li>
+
+                  <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                      <img src="https://ciberseguridadtips.com/wp-content/uploads/2022/04/Riesgo-en-ciberseguridad-A.jpg" style="height:300px " class="img-thumbnail" />
+                    </div>
+                  </li>
+                </ul><br>
+                <div class="list-group">
+                  
+                  <li class="list-group-item d-flex justify-content-between lh-sm bg-dark">
+                  <div>
+                      <h6 class="my-0 color-white">MENU</h6>
+                  </div>
+
+                  </li>
+                  <a  href="IA.html" class="list-group-item list-group-item-action list-group-item-primary">Inteligencia Artificial</a>
+                  <a  href="red5g.html" class="list-group-item list-group-item-action list-group-item-primary">RED 5G</a>
+                  <a  href="malla.html" class="list-group-item list-group-item-action list-group-item-primary">Malla de ciberseguridad</a>
+                  
+                </div><br>
+
+                <ul class="list-group mb-3" id="eventos" >
+                  <li class="list-group-item d-flex justify-content-between lh-sm bg-dark" id="titleaside">
+                    <div>
+                      <h5 class="my-0 color-white">VIDEOS</h5>
+                    </div>
+                    <!-- <span class="text-muted">FRONTAL</span> -->
+                  </li>
+
+                  <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe class="embed-responsive-item align-center align-items-center" src="https://www.youtube.com/embed/KdxJNa0rnjw" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                  <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe class="embed-responsive-item align-center align-items-center" src="https://www.youtube.com/embed/SZlnyFujkGE" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                  <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe class="embed-responsive-item align-center align-items-center" src="https://www.youtube.com/embed/Hvo275fmyOQ" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                  <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe class="embed-responsive-item align-center align-items-center" src="https://www.youtube.com/embed/_G_PT4Nu0zs" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe class="embed-responsive-item align-center align-items-center" src="https://www.youtube.com/embed/fLQ6UrOvqx4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe class="embed-responsive-item align-center align-items-center" src="https://www.youtube.com/embed/EHjmxujXIaQ" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                  </li>
+                </ul>
+
+              </form>
+            </div>
+            <div class="col-md-7 col-lg-8 order-md-last">
+              <br>
+              <form class="needs-validation" novalidate>
+
+                <div class="row">
+                  <div class="col text-center text-uppercase ">
+                    <small>By Ricma Last updated Abr 17, 2022</small>
+
+                    <h2>¿Cuáles serán las tendencias de ciberseguridad en 2022?</h2>
+
+                    <p>Ataques como el ransomware , la seguridad inteligente, automatización y
+                       protección unificada serán varias de las tendencias que dominarán el ecosistema de la
+                        ciberseguridad, según apuntan los expertos.</p>
+
+                    <p>El mercado de la ciberseguridad se encuentra en plena ebullición. Según las estimaciones
+                       de Fortune Business Insights, el mercado global de la ciberseguridad alcanzó un valor de 
+                       165.780 millones de dólares en 2021, con un crecimiento del 8,2% interanual. Además, pronostica
+                        que este mercado registrará un crecimiento anual del 12% en el periodo 2021-2028, situándose en
+                         torno a 366.000 millones al final del mismo.</p>
+
+                         A continuación, repasamos algunas de las principales tendencias que marcarán la evolución de la ciberseguridad en 2022.
+
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                      <img class="card-img-top" src="https://www.redeszone.net/app/uploads-redeszone.net/2022/04/ransomware-antivirus-problema.jpg?x=480&y=375&quality=40" alt="Foto de Sacha">
+                      </div>
+                        </div>
+                        <div class="col-md-7 col-lg-8 order-md-last">
+                      <div class="card-body">
+                        
+                        <h5 class="card-title">Ransomware y continuidad de negocio</h5>
+
+                        <p class="card-text">“Los ataques de ransomware ocurren cada 11 segundos y las demandas
+                           de extorsión han aumentado en un 300% en un solo año”, indica Forrester en su informe
+                            Predictions 2022. “El ransomware se ha convertido en una epidemia paralela”, afirma
+                             Fernando Maldonado, analista de IDG Research.</p>
+                         <div class="badges">
+                          <span class="badge badge-warning">cso.computerworld.es</span>
+                          <span class="badge badge-info">04/21/2022</span>
+                        </div> 
+                      </div>
+                      </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-12 col-md-6 col-lg-4 mb-4">
+                  <div class="card">
+                    <img class="card-img-top" src="https://www.welivesecurity.com/wp-content/uploads/2021/05/que-es-ransomware.jpg" alt="Foto de red 5g">
+                    </div>
+                  </div>
+                  <div class="col-md-7 col-lg-8 order-md-last">
+                    <div class="card-body">
+                      
+                      <h5 class="card-title">Seguridad Inteligente</h5>
+
+                      <p class="card-text">“La seguridad cada vez gestiona más información, basándose en las alertas 
+                        detectadas y en función de las cuales van actuando los equipos de seguridad. Pero no se
+                         discrimina”, apunta Maldonado.</p>
+                      <div class="badges">
+                        <span class="badge badge-secondary">Alberto Bellé</span>
+                        <span class="badge badge-danger">analista de IDG Research.</span>
+                      </div>   
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                      <img class="card-img-top" src="https://i0.wp.com/webadictos.com/media/2021/08/arquitectura-abierta.jpeg?fit=508%2C308&ssl=1" alt="Foto de Sacha">
+                      </div>
+                        </div>
+                        <div class="col-md-7 col-lg-8 order-md-last">
+                      <div class="card-body">
+                        
+                        <h5 class="card-title">Seguridad unificada</h5>
+
+                        <p class="card-text">José Cano, director de análisis de IDC España, afirmaba en un artículo 
+                          realizado para ComputerWorld recientemente que “el impulso en las organizaciones de automatizar
+                           e integrar o racionalizar el entorno de seguridad, unido a la gestión de identidades y 
+                           accesos en estos nuevos entornos, evoluciona hacia la adopción de un contexto de seguridad 
+                           unificada donde se hace clave garantizar la protección y soberanía del dato”.</p>
+                        <div class="badges">
+                          <span class="badge badge-warning">José Cano</span>
+                          <span class="badge badge-info">director de análisis de IDC España</span>
+                        </div>  
+                      </div>
+                      </div>
+                </div>
+
+            <!-- Lugar y fecha -->
+            <section id="place-time">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col pt-4 pb-4">
+                    <h5 class="m-0 font-weight-bold alert  border border-light w-100 text-left" 
+                    style="color:#16a1d8; background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372)">
+                    Las 4 capas de la mala de ciberseguridad</h5>
+                    <p>
+                      El enfoque que permite tener la ciberseguridad en malla es la escalabilidad y 
+                      la interoperabilidad, de manera desarrollar nuevas estrategias y construir la 
+                      infraestructura de la red.
+                    </p>
+                    <p>
+                      Lo que supondría una evolución para las infraestructuras de redes existentes, de manera que
+                       trabajaría con 4 capas que permitirían una respuesta adaptable a cada desafío moderno en la
+                        integración de ciberseguridad; veamos cuales son:
+                    </p>
+                    <p>
+                      Análisis e inteligencia de ciberseguridad: La CSMA trabaja combinando datos y los recursos
+                       de inteligencia mediante las lecciones de amenazas, y así proporcionar un análisis efectivo, 
+                       lo que daría la mejor respuesta a la amenaza de manera apropiada.
+                    </p>
+                    <p>
+                      Tejido de identidad distribuido: Lo que proporciona esta capa, capacidades de acceso que se 
+                      adapta a cada situación, de manera gestionar la identidad de redes descentralizadas, gestión
+                       de accesos y las pruebas de identidad.
+                    </p>
+                    
+                    <img class="card-img-top" src="https://www.itmastersmag.com/wp-content/uploads/2019/02/shutterstock_1156921555-e1551213995859.jpg" alt="Foto de Sacha"><br>
+                    <a class="btn btn-outline-light" target="_blank" href="https://muymajo.com/malla-de-ciberseguridad-que-es-y-como-funciona/">Conoce más</a>
+                  </div>
+                  
+                </div>
+              </div>
+            </section>
+            <!-- /Lugar y fecha -->
+
+              </form>
+              <br>
+              <br>
+              <br>
+              </div>
+              </div>
+
+          </div>
+      </div>
+    </div>
+    <!--iside-->
+
+
+
+    <!-- Footer -->
+    <footer id="footer" class="pb-4 pt-4">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12 col-lg">
+            <h6>Teléfono</h6><a href="#">502+ 4016-2741</a>
+          </div>
+          <div class="col-12 col-lg">
+            <h6>Correo</h6><a href="jacobgarcia.jm@gmail.com" target="_blank">jacobgarcia.jm@gmail.com</a>
+          </div>
+          <div class="col-12 col-lg">
+            <h6>YouTube</h6><a href="https://youtube.com/channel/UCLC4he5fphBr5WoUMzrzu2Q" target="_blank">Jacob Martinez</a>
+            <a href="#"></a>
+          </div>
+          <div class="col-12 col-lg">
+            <h6>Facebook</h6><a href="https://www.facebook.com/profile.php?id=100007625464402" target="_blank">Yeicob Garcia</a>
+            <a href="#"></a>
+          </div>
+          <div class="col-12 col-lg">
+            <h6>Instagram</h6><a href="https://www.instagram.com/yeicob.garcia/" target="_blank">@yeicob.garcia</a>
+          </div>
+          <div class="col-12 col-lg">
+            <h6>GitHub</h6><a href="https://github.com/YeicobGarcia" target="_blank">YeicobGarcia</a>
+            <a href="#"></a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="https://campussur.uvg.edu.gt/" target="_blank">Universidad del Valle Campus Sur</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalCompra" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Comprar tickets</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-row">
+                <div class="form-group col">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">@</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                </div>
+              </div>
+            </form>
+            <div class="alert alert-warning" role="alert">
+              Recibirás un correo de confirmación si sales sorteado
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-platzi">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Modal -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
