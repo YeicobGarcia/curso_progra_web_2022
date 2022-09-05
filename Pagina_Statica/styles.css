@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+
+header, section, footer, aside, nav, article, figure, figcaption, hgroup{
+    display: block;
+}
+
+#reproductor{
+    width: 720px;
+    margin: 20px auto;
+    padding: 5px;
+    background: grey;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+nav{
+    margin: 5px 0px;
+}
