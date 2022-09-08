@@ -1,3 +1,4 @@
+
 #header img {
    object-fit: auto;
    max-width: 200px;
@@ -56,6 +57,12 @@
    align-content: center;
  }
 
+ #columna-final .button {
+    text-align: right;
+    border-radius: 25%;
+    box-shadow: 0px, 6px, 0px, gray;
+ }
+
  #Headeraside {
    background: gray;
  }
@@ -64,6 +71,3 @@
    color: white;
  }
 
- #Headeraside .titleaside{
-   background: skyblue;
- }

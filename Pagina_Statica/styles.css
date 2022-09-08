@@ -1,19 +1,24 @@
-body{
+#firstbody {
     text-align: center;
+    background-image: url(assets/images/halo5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
 }
 
 header, section, footer, aside, nav, article, figure, figcaption, hgroup{
     display: block;
 }
 
-#reproductor{
+#Reproductor{
     width: 720px;
     margin: 20px auto;
     padding: 5px;
     background: grey;
     border-radius: 5px;
-    -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
 }
 
 nav{
