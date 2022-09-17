@@ -1,73 +1,189 @@
-
 #header img {
-   object-fit: auto;
-   max-width: 200px;
- }
- 
- #main .carousel-inner img {
-   max-height: 70vh;
-   object-fit: cover;
-   filter: grayscale(70%);
- }
+  object-fit: auto;
+  max-width: 200px;
+}
 
- #main h1{
-   font-family: 'BankGothic-Regular', cursive;
- }
- 
- #carousel {
-   position: relative;
- }
- 
- #carousel .overlay {
-   position: absolute;
-   top: 0;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   background-color: rgba(0, 0, 0, 0.5);
-   color: white;
- }
- 
- #carousel .overlay .container,
- #carousel .overlay .row {
-   height: 100%;
- }
- 
- #place-time {
-   background-color: #343a40;
-   color: white;
- }
- 
- #place-time img {
-   max-width: 100%;
- }
- 
- #footer {
-   background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
- }
- 
- #footer h6 {
-   color: greenyellow;
- }
+#main .carousel-inner img {
+  max-height: 70vh;
+  object-fit: cover;
+  filter: grayscale(70%);
+}
 
- #contenido b {
-   text-align: center;
-   color:#191970;
-   background:#F0FFFF;
-   align-content: center;
- }
+#main h1 {
+  font-family: 'BankGothic-Regular', cursive;
+}
 
- #columna-final .button {
-    text-align: right;
-    border-radius: 25%;
-    box-shadow: 0px, 6px, 0px, gray;
- }
+#carousel {
+  position: relative;
+}
 
- #Headeraside {
-   background: gray;
- }
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
 
- #Headeraside h5,h6{
-   color: white;
- }
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%;
+}
 
+#place-time {
+  background-color: #343a40;
+  color: white;
+}
+
+#place-time img {
+  max-width: 100%;
+}
+
+#footer {
+  background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
+}
+
+#footer h6 {
+  color: greenyellow;
+}
+
+#contenido b {
+  text-align: center;
+  color: #191970;
+  background: #F0FFFF;
+  align-content: center;
+}
+
+#columna-final .button {
+  text-align: right;
+  border-radius: 25%;
+  box-shadow: 0px, 6px, 0px, gray;
+}
+
+#Headeraside {
+  background: gray;
+}
+
+#Headeraside h5,
+h6 {
+  color: white;
+}
+
+.boton:hover {
+  background-image: initial;
+  background-color: rgb(14, 139, 158);
+  color: rgb(232, 230, 227);
+  box-shadow: rgb(2 186 195) 0px 0px 5px, rgb(2 186 195) 0px 0px 15px, rgb(2 186 195) 0px 0px 20px, rgb(2 186 195) 0px 0px 25px;
+}
+
+.boton .botonSpan {
+  position: absolute;
+  display: block;
+}
+
+.boton .botonSpan:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #03e9f4);
+  animation: 1s linear .75s infinite btn-anim4;
+}
+
+.boton .botonSpan:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #03e9f4);
+  animation: 1s linear .5s infinite btn-anim3;
+}
+
+.boton .botonSpan:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: 1s linear infinite btn-anim2;
+  animation: 1s linear .25s infinite btn-anim2;
+}
+
+.boton .botonSpan:first-child {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation: 1s linear infinite btn-anim1;
+}
+
+.boton .botonSpan:nth-child(4) {
+  background-image: linear-gradient(360deg, rgba(0, 0, 0, 0), rgb(2, 186, 195));
+  background-color: initial;
+}
+
+.boton .botonSpan:nth-child(3) {
+  background-image: linear-gradient(270deg, rgba(0, 0, 0, 0), rgb(2, 186, 195));
+  background-color: initial;
+}
+
+.boton .botonSpan:nth-child(2) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(2, 186, 195));
+  background-color: initial;
+}
+
+.boton .botonSpan:first-child {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0), rgb(2, 186, 195));
+  background-color: initial;
+}
+
+.boton:hover {
+  background: #11aec6;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4, 0 0 20px #03e9f4, 0 0 25px #03e9f4;
+}
+
+.boton {
+  color: rgb(69, 217, 239);
+}
+
+.boton,
+.custom-btn {
+  text-decoration-color: initial;
+}
+
+.boton {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #11aec6;
+  font-size: 16px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  letter-spacing: 4px;
+}
+
+.boton,
+.custom-btn {
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+}
+
+details>summary:first-of-type {
+  display: list-item;
+  counter-increment: list-item 0;
+  list-style: inside disclosure-closed;
+}
+
+details[open]>summary:first-of-type {
+  list-style-type: disclosure-open;
+}
+
+summary {
+  display: block;
+}
