@@ -1,0 +1,92 @@
+span {
+    border-color: initial;
+    outline-color: initial;
+    background-image: initial;
+    background-color: initial;
+    text-decoration-color: initial;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: 0;
+    text-decoration: none;
+}
+
+.divider::after,
+.divider::before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom {
+    height: calc(100%-73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+
+}
+
+.tituloLogin {
+    font-size: 30px;
+}
+
+.alineacionLogo {
+    text-align: center;
+
+}
+
+.boton .botonSpan {
+    position: absolute;
+    display: block;
+}
+
+.boton:hover {
+    background-image: initial;
+    background-color: rgb(14, 139, 158);
+    color: rgb(232, 230, 227);
+    box-shadow: rgb(2 186 195) 0px 0px 5px, rgb(2 186 195) 0px 0px 15px, rgb(2 186 195) 0px 0px 20px, rgb(2 186 195) 0px 0px 25px;
+}
+
+.boton,
+.custom-btn {
+    text-decoration-color: initial;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+}
+
+.boton {
+
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(69, 217, 239);
+    font-size: 16px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 4px;
+}
+
+.boton .botonSpan {
+    position: absolute;
+    display: block;
+}
+
+.boton .botonSpan:first-child {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #03e9f4);
+    animation: 1s linear infinite btn-anim1;
+}
+
+.boton .botonSpan:first-child {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0), rgb(2, 186, 195));
+    background-color: initial;
+}

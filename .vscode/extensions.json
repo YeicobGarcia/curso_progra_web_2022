@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "idered.npm",
-        "esbenp.prettier-vscode"
+        "esbenp.prettier-vscode",
+        "kokororin.vscode-phpfmt"
     ]
 }
